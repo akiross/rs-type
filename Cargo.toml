@@ -1,0 +1,13 @@
+[package]
+name = "rs-type"
+version = "0.1.0"
+authors = ["Alessandro Re <ale@ale-re.net>"]
+edition = "2018"
+
+[dependencies]
+ggez = { git = "https://github.com/ggez/ggez.git" }
+whoami = "0.8.2"
+rand = "0.7"
+rand_distr = "0.2.2"
+roxmltree = "0.11"
+structopt = "0.3"
