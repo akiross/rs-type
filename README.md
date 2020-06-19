@@ -22,12 +22,19 @@ Start the game downloading the courses you want from KTouch, for example `us.xml
     $ curl -O https://raw.githubusercontent.com/KDE/ktouch/master/data/courses/us.xml
     $ cargo run --bin game -- us.xml 
 
+The game is not really complete (and maybe it will never be), take that into
+consideration :)
+
+![Game screenshot](https://github.com/akiross/bors/raw/master/screenshots/rs-type/game.png)
+
 ## Painting tool
 
 To draw the background, I made a simple tool that helps drawing with triangles.
 It's very rudimentary: you give a fixed palette, a save/load file and it will
 automatically load it on start and save to it on exit (by pressing Escape).
 I'll describe it here because it's not really user friendly.
+
+![Paint tool](https://github.com/akiross/bors/raw/master/screenshots/rs-type/paint.png)
 
 It's not a serious tool, but you might have fun with it or improve it. Run with
 
