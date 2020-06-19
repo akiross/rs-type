@@ -9,9 +9,10 @@ While ztype has been a source of inspiration, the game aims to incorporates othe
 ideas as well:
 
 1. load [KTouch courses](https://github.com/KDE/ktouch/tree/master/data/courses)
-2. (TODO) optional hints on which finger to use.
-3. (TODO) various modes to practice Esc, Backspace, Enter, Caps, etc.
-4. (TODO) correct mode, requires player to correct typing errors to go on
+2. (TODO) losing conditions. Basically you can only win or give up :D
+3. (TODO) optional hints on which finger to use.
+4. (TODO) various modes to practice Esc, Backspace, Enter, Caps, etc.
+5. (TODO) correct mode, requires player to correct typing errors to go on
 
 Tested with rust 1.41 and 1.45 nightly.
 
